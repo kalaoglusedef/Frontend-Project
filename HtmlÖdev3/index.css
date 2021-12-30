@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  width: 90%;
+  margin: auto;
+}
+main > .search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eeeeee;
+}
+main > .search > p {
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+main > .connection {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-top: 2px;
+}
+main > .connection > .list {
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #7ee5da;
+  margin-right: 2px;
+}
+main > .connection > .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #70ccc2;
+  width: 21%;
+  margin-right: 2px;
+}
+main > .connection > .e-mail {
+  background-color: #62b3aa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 42%;
+}
+main > .connection > .e-mail > p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+main > .connection > .e-mail > .btn-2 {
+  margin-top: 0px;
+}
+footer {
+  font-size: small;
+  text-align: center;
+}
