@@ -1,0 +1,131 @@
+body {
+  margin: 0px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav > p {
+  margin-right: 20px;
+}
+nav > p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+nav > img {
+  width: 28px;
+  margin-right: 15px;
+}
+nav > .profile {
+  border-radius: 50%;
+  border: 3px solid transparent;
+}
+nav > .profile:hover {
+  border: 3px solid #f8f9fa;
+}
+nav > img:hover {
+  cursor: pointer;
+  opacity: 1;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main > .googleLogo {
+  margin-top: 180px;
+}
+main > .search {
+  width: 558px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 12px;
+  margin-top: 20px;
+}
+main > .search:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+main > .search > img:hover {
+  cursor: pointer;
+}
+main > .search > img {
+  width: 25px;
+}
+main > .search > input {
+  border: none;
+  width: 447px;
+  outline: none;
+}
+main > .inputGroup > input {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  min-width: 54px;
+  height: 36px;
+  text-align: center;
+  margin-top: 20px;
+}
+main > .inputGroup > input:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+main > p {
+  color: #3c4043;
+  text-align: center;
+  font-size: 14px;
+}
+footer {
+  color: #70757a;
+  background-color: #f2f2f2;
+  margin-top: 180px;
+}
+footer > p.country {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+}
+footer > .footerNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  height: 40px;
+}
+footer > .footerNav > .left {
+  display: flex;
+}
+footer > .footerNav > .left > p {
+  margin-right: 15px;
+}
+footer > .footerNav > .right {
+  display: flex;
+}
+footer > .footerNav > .right > p {
+  margin-left: 15px;
+}
+footer > .footerNav > .center {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+footer > .footerNav > .center > img {
+  height: 16px;
+  margin-right: 3px;
+}
