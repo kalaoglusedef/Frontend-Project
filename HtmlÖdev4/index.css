@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(212, 222, 255);
+}
+header > h2 {
+  color: rgb(112, 20, 35);
+}
+
+main > .preparation {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+main > .preparation > p {
+  margin-left: 20px;
+}
+main > .preparation > p > b {
+  color: rgb(112, 20, 35);
+}
+main > .necessaries {
+  text-align: center;
+  color: rgb(112, 20, 35);
+  font-weight: bolder;
+}
+main > .ingredients {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+main > .howTo {
+  display: flex;
+  justify-content: center;
+}
+main > .howTo > ol > p {
+  color: rgb(112, 20, 35);
+  font-weight: bolder;
+  text-align: center;
+}
+footer {
+  font-style: italic;
+  text-align: end;
+  font-weight: bolder;
+}
